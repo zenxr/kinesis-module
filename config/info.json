@@ -1,5 +1,10 @@
 {
     "id": "totem",
     "name": "totem",
-    "url": "https://github.com/zenxr/zmk-kinesis"
+    "url": "https://github.com/zenxr/zmk-kinesis",
+    "layouts": {
+        "LAYOUT": {
+
+        }
+    }
 }
