@@ -4,6 +4,7 @@
     "url": "https://github.com/zenxr/zmk-kinesis",
     "layouts": {
         "LAYOUT": {
+            "layout": []
 
         }
     }
