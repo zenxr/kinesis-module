@@ -64,14 +64,14 @@
             // |  BS    |  DEL  |  End  | HOME  |  ALT  |  CTRL |  CTRL |  Win  | PgUp  |  PgDn | Enter  | Space  |
 
             bindings = <
-&kp EQUAL   &kp N1         &kp N2     &kp N3         &kp N4     &kp N5  &kp N6  &kp N7     &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB     &kp SQT        &kp COMMA  &kp PERIOD     &kp P      &kp Y   &kp F   &kp G      &kp C      &kp R     &kp L     &kp SLASH
-&kp ESCAPE  &kp A          &kp O      &kp E          &kp U      &kp I   &kp D   &kp H      &kp T      &kp N     &kp S     &kp NON_US_BACKSLASH
-&kp LSHFT   &kp SEMICOLON  &kp Q      &kp J          &kp K      &kp X   &kp B   &kp M      &kp W      &kp V     &kp Z     &kp RSHFT
-            &kp GRAVE      &kp CAPS   &kp LEFT       &kp RIGHT                  &kp UP     &kp DOWN   &kp LBKT  &kp RBKT
-                                      &mt LCTRL TAB  &kp LALT                   &kp LCMD   &kp RCTRL
-                                                     &kp HOME                   &kp PG_UP
-                           &kp SPACE  &kp DEL        &lt 1 END                  &kp PG_DN  &kp ENTER  &kp BSPC
+&kp EQUAL   &kp N1         &kp N2     &kp N3         &kp N4             &kp N5  &kp N6  &kp N7              &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp TAB     &kp SQT        &kp COMMA  &kp PERIOD     &kp P              &kp Y   &kp F   &kp G               &kp C      &kp R     &kp L     &kp SLASH
+&kp ESCAPE  &kp A          &kp O      &kp E          &hml LEFT_SHIFT U  &kp I   &kp D   &hmr RIGHT_SHIFT H  &kp T      &kp N     &kp S     &kp NON_US_BACKSLASH
+&kp LSHFT   &kp SEMICOLON  &kp Q      &kp J          &kp K              &kp X   &kp B   &kp M               &kp W      &kp V     &kp Z     &kp RSHFT
+            &kp GRAVE      &kp CAPS   &kp LEFT       &kp RIGHT                          &kp UP              &kp DOWN   &kp LBKT  &kp RBKT
+                                      &mt LCTRL TAB  &kp LALT                           &kp LCMD            &kp RCTRL
+                                                     &kp HOME                           &kp PG_UP
+                           &kp SPACE  &kp DEL        &lt 1 END                          &kp PG_DN           &kp ENTER  &kp BSPC
             >;
         };
 
