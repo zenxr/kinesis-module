@@ -2,7 +2,7 @@ file_format: "1"
 id: kinesis
 name: Kinesis
 type: shield
-url: https://github.com/zenxr/zmk-kinesis-adv2
+url: https://github.com/zenxr/kinesis-module/
 requires:
   - nice_nano_v2
 features:
