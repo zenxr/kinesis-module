@@ -1,15 +1,11 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-#define Base 0
-
 / {
     keymap {
         compatible = "zmk,keymap";
 
-        Base {
-            label = "Base";
-
+        default_layer {
 // ----------------------------------------------------------------------------------------------------
 // |  +/=   |   1   |   2   |   3   |   4   |   5   |   6   |   7   |   8   |   9   |   0    | -/_    |
 // |  TAB   |   Q   |   W   |   E   |   R   |   T   |   Y   |   U   |   I   |   O   |   P    | :/\    |
@@ -24,7 +20,9 @@
     &kp CAPS   &kp A     &kp S    &kp D     &kp F     &kp G     &kp H     &kp J    &kp K     &kp L     &kp SEMI  &kp APOS
     &kp LSHFT  &kp Z     &kp X    &kp C     &kp V     &kp B     &kp N     &kp M    &kp COMMA &kp DOT   &kp SLASH &kp RSHFT
                &kp GRAVE &kp BSLH &kp LEFT  &kp RIGHT                     &kp UP   &kp DOWN  &kp LBKT  &kp RBKT
-    &kp BSPC   &kp DEL   &kp END  &kp HOME  &kp LALT  &kp LCTRL &kp RCTRL &kp LCMD &kp PG_UP &kp PG_DN &kp ENTER &kp SPACE
+                                  &kp DEL   &kp LALT                      &kp LCMD &kp RCTRL
+                                            &kp HOME                      &kp PG_UP
+                         &kp SPACE &kp DEL  &kp END                       &kp PG_DN &kp ENTER &kp BSPC
             >;
         };
     };
