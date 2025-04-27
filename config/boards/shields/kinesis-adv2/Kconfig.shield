@@ -1,2 +1,0 @@
-config SHIELD_KINESIS
-    def_bool $(shields_list_contains,kinesis-adv2)
