@@ -19,11 +19,11 @@
     &kp TAB    &kp Q     &kp W    &kp E     &kp R     &kp T     &kp Y     &kp U    &kp I     &kp O     &kp P     &kp BSLH
     &kp CAPS   &kp A     &kp S    &kp D     &kp F     &kp G     &kp H     &kp J    &kp K     &kp L     &kp SEMI  &kp APOS
     &kp LSHFT  &kp Z     &kp X    &kp C     &kp V     &kp B     &kp N     &kp M    &kp COMMA &kp DOT   &kp SLASH &kp RSHFT
-    &kp 0      &kp GRAVE &kp BSLH &kp LEFT  &kp RIGHT &kp 0     &kp 0     &kp UP   &kp DOWN  &kp LBKT  &kp RBKT  &kp 0
-    &kp BSPC   &kp DEL   &kp END  &kp HOME  &kp LALT  &kp LCTRL &kp RCTRL &kp LCMD &kp PG_UP &kp PG_DN &kp ENTER &kp SPACE
+               &kp GRAVE &kp BSLH &kp LEFT  &kp RIGHT                     &kp UP   &kp DOWN  &kp LBKT  &kp RBKT
+                                  &kp DEL   &kp LALT                      &kp LCMD &kp RCTRL
+                                            &kp HOME                      &kp PG_UP
+                         &kp SPACE &kp DEL  &kp END                       &kp PG_DN &kp ENTER &kp BSPC
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
     };
 };

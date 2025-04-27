@@ -1,4 +1,0 @@
-name: zmk-keyboard-kinesis
-build:
-  settings:
-    board_root: .
